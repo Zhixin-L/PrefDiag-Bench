@@ -1,32 +1,50 @@
 <div align="center">
-
-# PrefDiag-Bench
-
-### Diagnosing Personalization Failures in Mobile GUI Agents
-
-**How should preferences change execution? When should they take effect?**
-
-Zhixin Lin<sup>1,2</sup>, Dongliang Xu<sup>1,*</sup>, Jungang Li<sup>3,4</sup>, Shidong Pan<sup>5</sup>,<br>
-Liang Liu<sup>2,&dagger;</sup>, Jun Feng<sup>6</sup>, Jing Li<sup>7</sup>, Yanbin Sun<sup>8</sup>, Yue Yao<sup>1,*</sup>
-
-<sup>1</sup> Shandong University &nbsp; <sup>2</sup> VIVO AI Lab &nbsp; <sup>3</sup> HKUST (GZ) &nbsp; <sup>4</sup> HKUST<br>
-<sup>5</sup> Independent Research &nbsp; <sup>6</sup> Institute of Automation, Chinese Academy of Sciences<br>
-<sup>7</sup> University of Technology Sydney &nbsp; <sup>8</sup> Guangzhou University
-
-<sup>&dagger;</sup> Project lead &nbsp; <sup>*</sup> Corresponding authors
-
-![E2E Tasks](https://img.shields.io/badge/E2E_tasks-318-7952B3?style=flat-square)
-![Diagnostic Probes](https://img.shields.io/badge/Diagnostic_probes-1%2C664-367C8D?style=flat-square)
-![Preference Types](https://img.shields.io/badge/Preference_types-5-52667A?style=flat-square)
-![Release Status](https://img.shields.io/badge/Code_%26_data-Will_be_released-A17B45?style=flat-square)
-
-[Overview](#overview) &nbsp; | &nbsp; [Benchmark](#benchmark) &nbsp; | &nbsp; [Diagnostic Probes](#diagnostic-probes) &nbsp; | &nbsp; [Release Plan](#release-plan) &nbsp; | &nbsp; [Citation](#citation)
-
-**Paper:** arXiv link to be added after publication &nbsp; | &nbsp; **Project Page:** planned
-
+  <h2>
+    <a href="https://github.com/Zhixin-L/PrefDiag-Bench">
+      PrefDiag-Bench: Diagnosing Personalization Failures in Mobile GUI Agents
+    </a>
+  </h2>
 </div>
 
-> **Release status:** The code and dataset will be released in this repository. The project overview and paper figures are available now.
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=dSQdVooAAAAJ">Zhixin Lin</a><sup>1,2</sup>,
+  <a href="https://faculty.sdu.edu.cn/xudongliang/zh_CN/index.htm">Dongliang Xu</a><sup>1,*</sup>,
+  <a href="https://github.com/LJungang">Jungang Li</a><sup>3,4</sup>,
+  <a href="https://shidongpan.github.io/">Shidong Pan</a><sup>5</sup>,<br>
+  <a href="https://yorkeyao.cc/">Liang Liu</a><sup>2,&dagger;</sup>,
+  <a href="https://yorkeyao.cc/">Jun Feng</a><sup>6</sup>,
+  <a href="https://yorkeyao.cc/">Jing Li</a><sup>7</sup>,
+  <a href="https://yorkeyao.cc/">Yanbin Sun</a><sup>8</sup>,
+  <a href="https://yorkeyao.cc/">Yue Yao</a><sup>1,*</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup> Shandong University &nbsp; <sup>2</sup> VIVO AI Lab &nbsp;
+  <sup>3</sup> HKUST (GZ) &nbsp; <sup>4</sup> HKUST<br>
+  <sup>5</sup> Independent Research &nbsp;
+  <sup>6</sup> Institute of Automation, Chinese Academy of Sciences<br>
+  <sup>7</sup> University of Technology Sydney &nbsp; <sup>8</sup> Guangzhou University
+</p>
+
+<p align="center">
+  <em><sup>&dagger;</sup> Project lead &nbsp; <sup>*</sup> Corresponding authors</em>
+</p>
+
+<p align="center">
+  <b>Paper:</b> arXiv link forthcoming &nbsp; | &nbsp;
+  <b>Code &amp; Data:</b> will be released &nbsp; | &nbsp;
+  <b>Project Page:</b> planned
+</p>
+
+## TODO
+
+- [ ] Add the arXiv paper link.
+- [ ] Release end-to-end tasks, user profiles, and behavioral memory logs.
+- [ ] Release diagnostic probes and reference annotations.
+- [ ] Release evaluation code and reproduction instructions.
+- [ ] Launch the project page.
+
+The code and dataset will be released in this repository. The overview and paper figures are available below.
 
 ## Overview
 
@@ -44,6 +62,10 @@ The benchmark pairs **end-to-end mobile GUI tasks** with **stage-wise diagnostic
 </p>
 
 ## Benchmark
+
+![E2E Tasks](https://img.shields.io/badge/E2E_tasks-318-7952B3?style=flat-square)
+![Diagnostic Probes](https://img.shields.io/badge/Diagnostic_probes-1%2C664-367C8D?style=flat-square)
+![Preference Types](https://img.shields.io/badge/Preference_types-5-52667A?style=flat-square)
 
 | Task Families | End-to-End Tasks | Diagnostic Probes | Preference Atoms | Evaluated Systems |
 |:---:|:---:|:---:|:---:|:---:|
@@ -85,21 +107,6 @@ P1-P5 examine five capabilities across information processing, contextual reason
 | **P5** | Operation Mapping | Can it select an appropriate operation once the preference is active? |
 
 For task-level diagnostic scoring, all associated questions at a probe stage must be answered correctly. The task and diagnostic results can then be compared for the same task-preference pair.
-
-## News
-
-- **2026-10-06:** The public PrefDiag-Bench repository is online, with the project overview and paper figures.
-
-## Release Plan
-
-- [x] Publish the project overview and paper figures.
-- [ ] Add the arXiv paper link.
-- [ ] Release end-to-end task definitions, user profiles, and behavioral memory logs.
-- [ ] Release diagnostic probe datasets and reference annotations.
-- [ ] Release evaluation code and reproduction instructions.
-- [ ] Launch the project page.
-
-The code and dataset are being prepared for release. Release updates will be posted here; a release date has not yet been announced.
 
 ## Citation
 
