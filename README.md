@@ -40,17 +40,28 @@
   If you find this work useful, please consider starring ⭐ the repository to support our research.
 </p>
 
-<p align="center">
-  <em>Code and data will be released. Resource links are placeholders until publication.</em>
-</p>
+## 📰 News
+
+- **`2026-10-06`** We will release the code and data for **PrefDiag-Bench** soon. Stay tuned!
 
 ## 📖 PrefDiag-Bench Overview
 
-Personalized GUI agents must not only complete tasks, but also adapt their decisions and execution to individual preferences. **PrefDiag-Bench** evaluates this ability through **318 mobile GUI tasks** across seven application domains and **1,664 diagnostic probes**.
+Personalized GUI agents must do more than complete a request: they must determine **how user preferences should change execution** and **when those preferences should take effect** as GUI states change. Overall task success alone does not reveal where this process fails.
 
-Each task family pairs a Basic task with five personalized variants: **Outcome, Constraint, Ranking, Process, and Interaction**. User context is provided as either **explicit user profiles** or **behavioral memory logs**.
+We introduce **PrefDiag-Bench**, combining **318 end-to-end mobile GUI tasks** with **1,664 task-linked diagnostic probes**. Its paired evaluation covers:
 
-The **P1-P5 probes** examine memory induction, evidence selection, relevance selection, trigger recognition, and operation mapping, connecting preference understanding to task execution.
+- 🎯 **Five execution-oriented preference types:** Outcome, Constraint, Ranking, Process, and Interaction.
+- 🧠 **Two forms of user context:** explicit user profiles and behavioral memory logs.
+- 🔍 **Five diagnostic stages (P1-P5):** memory induction, evidence selection, relevance selection, trigger recognition, and operation mapping.
+
+We evaluate **11 GUI systems**, including nine end-to-end agents and two agentic workflows, and find:
+
+- **Personalized tasks remain substantially harder than Basic tasks.** Ranking and Process are recurring difficulties; even Seed-2.0-Pro achieves only **47.17% TSR** on Process preferences with explicit profiles.
+- **Explicit profiles do not consistently outperform behavioral logs.** The more effective context form varies across systems.
+- **Evidence selection and trigger recognition are major bottlenecks.** Across the nine directly probed agents, these stages average **40.06%** and **39.69%** task-level accuracy, respectively, on the failure-derived diagnostic set.
+- **Evidence guidance can improve execution.** On an **85-task controlled intervention subset**, labeling supporting and distracting logs raises TSR by up to **7.06 percentage points**, while benefits vary across systems.
+
+Our results highlight the need to evaluate not only whether agents understand user preferences, but also whether they apply them reliably throughout task execution.
 
 <p align="center">
   <img src="assets/overview.png" width="960" alt="PrefDiag-Bench: five ways preferences change GUI execution and the state-dependent timing of confirmation">
