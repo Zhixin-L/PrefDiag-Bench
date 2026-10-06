@@ -46,7 +46,7 @@
 
 ## 📖 PrefDiag-Bench Overview
 
-Personalized GUI agents must do more than complete a request: they must determine **how user preferences should change execution** and **when those preferences should take effect** as GUI states change. Overall task success alone does not reveal where this process fails.
+Personalized GUI agents must do more than complete a request: they must determine **how user preferences should change execution** and **when those preferences should take effect** as GUI states change.
 
 We introduce **PrefDiag-Bench**, combining **318 end-to-end mobile GUI tasks** with **1,664 task-linked diagnostic probes**. Its paired evaluation covers:
 
@@ -79,8 +79,6 @@ Our results highlight the need to evaluate not only whether agents understand us
   note   = {Preprint}
 }
 ```
-
-The citation will be updated with the arXiv identifier after publication.
 
 ## ✉️ Contact
 
