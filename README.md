@@ -13,8 +13,8 @@
   <a href="https://shidongpan.github.io/">Shidong Pan</a><sup>5</sup>,<br>
   <a href="https://yorkeyao.cc/">Liang Liu</a><sup>2,&dagger;</sup>,
   <a href="https://yorkeyao.cc/">Jun Feng</a><sup>6</sup>,
-  <a href="https://yorkeyao.cc/">Jing Li</a><sup>7</sup>,
-  <a href="https://yorkeyao.cc/">Yanbin Sun</a><sup>8</sup>,
+  <a href="https://yorkeyao.cc/">Yanbin Sun</a><sup>7</sup>,
+  <a href="https://yorkeyao.cc/">Jing Li</a><sup>8</sup>,
   <a href="https://yorkeyao.cc/">Yue Yao</a><sup>1,*</sup>
 </p>
 
@@ -23,7 +23,7 @@
   <sup>3</sup> HKUST (GZ) &nbsp; <sup>4</sup> HKUST<br>
   <sup>5</sup> Independent Research &nbsp;
   <sup>6</sup> Institute of Automation, Chinese Academy of Sciences<br>
-  <sup>7</sup> University of Technology Sydney &nbsp; <sup>8</sup> Guangzhou University
+  <sup>7</sup> Guangzhou University &nbsp; <sup>8</sup> University of Technology Sydney
 </p>
 
 <p align="center">
