@@ -21,7 +21,7 @@
 <p align="center">
   <sup>1</sup> Shandong University &nbsp; <sup>2</sup> VIVO AI Lab &nbsp;
   <sup>3</sup> HKUST (GZ) &nbsp; <sup>4</sup> HKUST<br>
-  <sup>5</sup> Independent Research &nbsp;
+  <sup>5</sup> Independent Researcher &nbsp;
   <sup>6</sup> Institute of Automation, Chinese Academy of Sciences<br>
   <sup>7</sup> Guangzhou University &nbsp; <sup>8</sup> University of Technology Sydney
 </p>
