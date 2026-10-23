@@ -70,13 +70,15 @@ Our results highlight the need to evaluate not only whether agents understand us
 ## 📑 Citation
 
 ```bibtex
-@misc{lin2026prefdiagbench,
-  title  = {Diagnosing Personalization Failures in Mobile GUI Agents},
-  author = {Lin, Zhixin and Xu, Dongliang and Li, Jungang and
-            Pan, Shidong and Liu, Liang and Feng, Jun and
-            Li, Jing and Sun, Yanbin and Yao, Yue},
-  year   = {2026},
-  note   = {Preprint}
+@article{lin2026diagnosingpersonalizationfailuresmobile,
+  title={Diagnosing Personalization Failures in Mobile GUI Agents},
+  author={Zhixin Lin and Dongliang Xu and Jungang Li and Shidong Pan and Jun Feng and Yanbin Sun and Jing Li and Liang Liu and Yue Yao},
+  journal={arXiv preprint arXiv:2610.30573},
+  year={2026},
+  eprint={2610.30573},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2610.30573}
 }
 ```
 
